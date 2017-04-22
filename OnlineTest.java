@@ -12,6 +12,7 @@ class OnlineTest extends JFrame implements ActionListener
 	ButtonGroup bg;
 	int count=0,current=0,x=1,y=1,now=0;
 	int m[]=new int[10];	
+	System.out.println("Updated");
 	OnlineTest(String s)
 	{
 		super(s);
